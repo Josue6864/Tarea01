@@ -20,6 +20,11 @@ public class Array {
             array[i] = random.nextInt(100);
         }
 
+        System.out.println("Arreglo generado:");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+
         int mayor = encontrarMayor(array);
         int menor = encontrarMenor(array);
 
